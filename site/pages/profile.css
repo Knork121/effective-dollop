@@ -1,0 +1,98 @@
+body {
+  font-family: "Fredoka", sans-serif;
+  background-image: url("../images/backgroundimg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+span {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.card-balance {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 180px;
+  border-radius: 14px;
+  margin-bottom: 44px;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.card-score {
+  font-size: 70px;
+  font-weight: 700;
+
+}
+
+.cards-down {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.card-left,
+.card-right {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.cards {
+  margin-bottom: 20px;
+}
+
+
+.card-left {
+  text-align: center;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
+}
+
+.card-right {
+  text-align: center;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
+}
+
+.top-card {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.medium-card {
+  font-size: 59px;
+  font-weight: 700;
+}
+
+/* .line-reverse{
+  right: 435px;
+} */
+
+
+
+.ref {
+  font-size: 34px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 25px;
+}

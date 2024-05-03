@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+@font-face {
+  font-family: 'Noot';
+  src: url('fonts/Noot.woff2') format('woff2');
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 40px;
+  font-family: "Fredoka", sans-serif;
+  background-image: url("images/backgroundimg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cutaway {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding: 14px 200px 30px 15px;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+/* .cutaway::after {
+  content: "";
+  position: absolute;
+  background-image: url("images/volcano.png");
+  width: 376px;
+  height: 244px;
+  top: 0;
+  right: 0;
+} */
+
+span {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.author {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 7px;
+}
+
+.investor {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.volcano {
+  position: absolute;
+  top: -56px;
+  right: -56px;
+  z-index: 1;
+}
+
+.wrapper-balance {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.balance {
+  font-size: 48px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.finance {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: -30px;
+}
+
+.check {
+  font-size: 92px;
+  font-family: "Noot";
+  /* text-shadow: -3px -3px black; */
+  font-weight: 500;
+  -webkit-text-stroke: 1px black;
+}
+
+.buttons button {
+  outline: none;
+  border: none;
+}
+
+/* .profile-btn {
+  background-color: #F8731F;
+  position: relative;
+  padding: 20px;
+  box-shadow: -6px 6px 0 brown;
+  transition: box-shadow 0.15s linear 0s;
+}
+
+.profile-btn:hover {
+  top: 4px;
+  left: -4px;
+  box-shadow: -3px 4px 0 brown;
+
+} */
+
+.profile-btn {
+  display: flex;
+  align-items: center;
+  padding: 40px 180px 40px 90px;
+  position: relative;
+  justify-content: space-between;
+  background-color: #F8731F;
+  border: 5px solid black;
+  font-size: 41px;
+  font-weight: 600;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 10px 10px 5px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-btn:hover {
+  transform: translateX(-5px) translateY(4px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 10px 10px 5px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(255, 255, 255, 0.2);
+}
+
+.profile-btn:active {
+  transform: translateX(-5px) translateY(8px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.profile-text {
+  color: black;
+  font-weight: 700;
+  font-size: 41px;
+}
+
+.line {
+  width: 5px;
+  height: 130px;
+  background-color: #000000;
+  position: absolute;
+  right: 105px;
+  bottom: 0;
+}
+
+.play-btn {
+  background-color: rgb(255, 255, 255);
+
+}
+
+/* .donate-text {
+  padding-left: 400px;
+} */
+
+.line-reverse {
+  right: 545px;
+}
+
+.profile-wrapper {
+  margin-bottom: 20px;
+}
